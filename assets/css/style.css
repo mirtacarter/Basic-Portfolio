@@ -2,8 +2,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #777777;
-    background-image: url("/assets/images/background.png");
-    background-color: #ffffff;
+    background-image: url("../images/background.png");
 }
 
 header {
