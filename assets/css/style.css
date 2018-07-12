@@ -13,22 +13,28 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.headersection {
+    width: 960px;
+    margin: auto;
+}
+
 h1 {
     background-color: #4aaaa5;
     padding: 20px;
     color: #ffffff;
 }
-
-#navleft {
-
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 10px;
+    padding: 10px;
 }
 
-#navmiddle {
-
-}
-
+#navleft,
+#navmiddle,
 #navright {
-
+    float: right;
 }
 
 #container {
