@@ -13,7 +13,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.headersection {
+.headingbar {
     width: 960px;
     margin: auto;
 }
@@ -28,7 +28,6 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin: 10px;
-    padding: 10px;
 }
 
 #navleft,
