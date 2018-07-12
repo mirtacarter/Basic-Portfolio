@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
     color: #777777;
@@ -9,7 +8,9 @@ body {
 }
 
 header {
-
+    background: #ffffff;
+    border: 2px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #navleft {
@@ -24,8 +25,12 @@ header {
 
 }
 
-.container {
-
+#container {
+    background-color: #ffffff;
+    border-color: 2px solid #dddddd;
+    margin: auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #content {
@@ -33,9 +38,15 @@ header {
 }
 
 #profilepicture {
+    float: left;
+}
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 footer {
-
+    background-color: #dddddd;
 }
