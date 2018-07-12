@@ -1,17 +1,20 @@
 body {
-    padding: 0;
-    margin: 0;
     font-size: 18px;
     line-height: 150%;
     color: #777777;
-    background: #4aa;
+    background-image: url("/assets/images/background.png");
+    background-color: #ffffff;
 }
 
 header {
-    background: #ffffff;
-    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: #4aaaa5;
 }
 
 #navleft {
@@ -33,6 +36,10 @@ header {
     width: 960px;
     padding: 20px 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectionheader {
+    border-bottom: 2px solid #cccccc;
 }
 
 #content {
