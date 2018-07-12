@@ -10,6 +10,7 @@ body {
 header {
     background: #ffffff;
     border: 2px solid #cccccc;
+    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -30,6 +31,7 @@ header {
     border-color: 2px solid #dddddd;
     margin: auto;
     width: 960px;
+    padding: 20px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -48,5 +50,8 @@ header {
 }
 
 footer {
-    background-color: #dddddd;
+    background-color: #666666;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
 }
