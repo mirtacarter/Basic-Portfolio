@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-size: 18px;
     line-height: 150%;
     color: #777777;
     background-image: url("../images/background.png");
@@ -8,7 +11,6 @@ body {
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
-    padding: 20px;
     margin-bottom: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -16,22 +18,30 @@ header {
 .headingbar {
     width: 960px;
     margin: auto;
+    overflow: auto;
+    background-color: #4aaaa5;
 }
 
 
 h1 {
-    background-color: #4aaaa5;
-    padding: 20px;
+    padding: 31px;
     color: #ffffff;
-    width: 30%;
-
+    float: left;
 }
+
+#links {
+    float: right;
+    padding-top: 38px;
+    background-color: #ffffff;
+    width: 65%;
+    text-align: right;
+}
+
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin: 10px;
-    float: right;
 }
 
 #container {
@@ -45,6 +55,11 @@ a {
 
 #sectionheader {
     border-bottom: 2px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
 }
 
 #content {
@@ -53,6 +68,7 @@ a {
 
 #profilepicture {
     float: left;
+    padding: 20px;
 }
 
 .clearfix::after {
