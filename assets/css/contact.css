@@ -95,10 +95,10 @@ input[type=submit]:hover {
     background-color: #4aaaa5;
 }
 
-.container {
+.form {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 30px;
 }
 
 
@@ -114,6 +114,6 @@ footer {
     font-size: 14px;
     text-align: center;
     padding-top: 50px;
-    margin-top: 7.5%;
+    margin-top: 7%;
     border-top: 6px solid #4aaaa5;
 }
