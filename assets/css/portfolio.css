@@ -75,10 +75,62 @@ a {
     background-color: #FFFFFF;
     padding: 2px;
   }
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+
+.grid-container > div {
     border: none;
   }
+
+img {
+    position: relative;
+  }
+
+#gallery1 { 
+    position: absolute; 
+    top: 325px;
+    left: 500px;
+
+    z-index: 100;
+ }
+
+ #gallery2 { 
+    position: absolute; 
+    top: 510px;
+    left: 500px;
+
+    z-index: 100;
+ }
+
+ #gallery3 { 
+    position: absolute; 
+    top: 695px;
+    left: 500px;
+
+    z-index: 100;
+ }
+
+ #gallery4 { 
+    position: absolute; 
+    top: 325px;
+    left: 975px;
+
+    z-index: 100;
+ }
+
+ #gallery5 { 
+    position: absolute; 
+    top: 510px;
+    left: 975px;
+    z-index: 100;
+ }
+ 
+
+h3 span {
+    color: white; 
+    background-color: #4aaaa5;
+    padding: 10px; 
+}
+
+
 
 .clearfix::after {
     content: "";
