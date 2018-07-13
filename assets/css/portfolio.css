@@ -68,6 +68,17 @@ a {
     padding: 20px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+    background-color: #FFFFFF;
+    padding: 2px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+  }
 
 .clearfix::after {
     content: "";
@@ -80,6 +91,6 @@ footer {
     font-size: 14px;
     text-align: center;
     padding-top: 50px;
-    margin-top: 7.5%;
+    margin-top: 3%;
     border-top: 6px solid #4aaaa5;
 }
