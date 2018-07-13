@@ -68,64 +68,20 @@ a {
     padding: 20px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 2px;
-    background-color: #FFFFFF;
-    padding: 2px;
-  }
-
-.grid-container > div {
+table {
     border: none;
-  }
-
-img {
-    position: relative;
-  }
-
-#gallery1 { 
-    position: absolute; 
-    top: 330px;
-    left: 505px;
-    z-index: 100;
- }
-
- #gallery2 { 
-    position: absolute; 
-    top: 515px;
-    left: 495px;
-    z-index: 100;
- }
-
- #gallery3 { 
-    position: absolute; 
-    top: 700px;
-    left: 490px;
-    z-index: 100;
- }
-
- #gallery4 { 
-    position: absolute; 
-    top: 330px;
-    left: 958px;
-    z-index: 100;
- }
-
- #gallery5 { 
-    position: absolute; 
-    top: 515px;
-    left: 973px;
-    z-index: 100;
- }
- 
-
-h4 span {
-    color: white; 
-    background-color: #4aaaa5;
-    padding: 5px 47px; 
 }
 
+div.gallery {
+    margin: 2px;
+    float: left;
+}
+
+div.desc {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
 
 
 .clearfix::after {
